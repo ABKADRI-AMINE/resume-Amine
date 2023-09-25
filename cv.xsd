@@ -1,0 +1,108 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entete">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="adresse"/>
+              <xs:element type="xs:string" name="filiere"/>
+              <xs:element type="xs:string" name="nom"/>
+              <xs:element type="xs:date" name="dateNaissance"/>
+              <xs:element type="xs:string" name="nationalite"/>
+              <xs:element type="xs:string" name="telephone"/>
+              <xs:element type="xs:string" name="mail"/>
+              <xs:element type="xs:string" name="git"/>
+              <xs:element type="xs:string" name="about"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="formations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="diplome" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="annee"/>
+                    <xs:element type="xs:string" name="branche"/>
+                    <xs:element type="xs:string" name="intitule"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stages">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stage" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:short" name="date"/>
+                    <xs:element type="xs:string" name="titre"/>
+                    <xs:element type="xs:string" name="description"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="competences">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="competence" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="titre"/>
+                    <xs:element type="xs:string" name="description"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="socials">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="social" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nomr"/>
+                    <xs:element type="xs:string" name="compte"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="langues">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="langue" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="intitule"/>
+                    <xs:element type="xs:string" name="niveau"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="loisirs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="loisir">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="loisi" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

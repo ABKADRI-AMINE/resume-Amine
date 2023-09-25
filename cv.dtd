@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT cv (entete,formations,stages,competences,socials,loisirs,langues)>
+
+<!ELEMENT entete (nom,dateNaissance,nationalite,telephone,mail,about,git,filiere,adresse)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT dateNaissance (#PCDATA)>
+<!ELEMENT nationalite (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT git (#PCDATA)>
+<!ELEMENT filiere (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT about (#PCDATA)>
+
+
+<!ELEMENT formations (diplome+)>
+<!ELEMENT diplome (annee,branche,intitule)>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT branche (#PCDATA)>
+<!ELEMENT intitule (#PCDATA)>
+
+<!ELEMENT stages (stage+)>
+<!ELEMENT stage (date,titre,description)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT competences (competence+)>
+<!ELEMENT competence (titree,descriptionn)>
+<!ELEMENT titree (#PCDATA)>
+<!ELEMENT descriptionn (#PCDATA)>
+
+<!ELEMENT socials (social+)>
+<!ELEMENT social (nomr,compte)>
+<!ELEMENT nomr (#PCDATA)>
+<!ELEMENT compte (#PCDATA)>
+
+<!ELEMENT loisirs (loisir+)>
+<!ELEMENT loisir (loisi)>
+<!ELEMENT loisi (#PCDATA)>
+
+<!ELEMENT langues (langue+)>
+<!ELEMENT langue (intitulee,niveau)>
+<!ELEMENT intitulee (#PCDATA)>
+<!ELEMENT niveau (#PCDATA)>
+

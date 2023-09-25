@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entete>
+        <adresse>CASABLANCA-OULFA</adresse>
+        <filiere> GÉNIE
+            INFORMATIQUE</filiere>
+        <nom>ABKADRI AMINE</nom>
+        <dateNaissance>2001-12-19</dateNaissance>
+        <nationalite>MAROC</nationalite>
+        <telephone>06 37 91 51 84</telephone>
+        <mail>amine@gmail.com</mail>
+        <git>amine abkadri</git>
+        <about>Élève ingénieure en 4 éme année génie
+            informatique à l’ENSA de Tétouan âgé
+            de 22 ans, ayant l'esprit d'équipe et une
+            excellente capacité d'adaptation et de
+            communication à la recherche d'un
+            stage PFA.</about>
+    </entete>
+    <formations>
+        <diplome>
+            <annee>SEP 2021
+                -
+                SEP 2024</annee>
+            <branche> GÉNIE
+                INFORMATIQUE</branche>
+            <intitule>École Nationale des Sciences Appliquées de Tétouan-Trois ans</intitule>
+        </diplome>
+        <diplome>
+            <annee>SEP 2019
+                -
+                JUI 2021</annee>
+            <branche>CYCLE PRÉPARATOIRE</branche>
+            <intitule>École Nationale des Sciences Appliquées de Tétouan-Deux ans</intitule>
+        </diplome>
+        <diplome>
+            <annee>SEP 2016
+                -
+                JUI 2019</annee>
+            <branche>Baccalaureat</branche>
+            <intitule>Lycée Sanaa-Casablanca,
+                Maroc
+                Science Physique-Option
+                Français-Mention Très Bien
+            </intitule>
+        </diplome>
+    </formations>
+    <stages>
+        <stage>
+            <date>2022</date>
+            <titre>INETUM</titre>
+            <description>CONSULTANT TECHNIQUE SAGE X3:Création d'une fonction client (ERP SAGE X3 sous Langage de
+                programmation L4G)+Manipulation des Etats crystal</description>
+        </stage>
+        <stage>
+            <date>2021</date>
+            <titre>NTT DATA</titre>
+            <description>-Développement d'une application web de mise en relation entre
+                personnels et clients:(PHP,MYSQL,HTML,CSS,JAVASCRIPT,BOOTSTRAP)
+                -Développement d'une simple application mobile (Flutter et Dart)
+            </description>
+        </stage>
+        <stage>
+            <date>2020</date>
+            <titre>CloseVerre</titre>
+            <description>Elaboration de factures, devis, bon de commande et bon de livraison
+                (Microsoft excel, Microsoft Word)</description>
+        </stage>
+    </stages>
+    <competences>
+        <competence>
+            <titre>Sage</titre>
+            <description>70%</description>
+        </competence>
+        <competence>
+            <titre>Flutter</titre>
+            <description>90%</description>
+        </competence>
+        <competence>
+            <titre>Dart</titre>
+            <description>80%</description>
+        </competence>
+        <competence>
+            <titre>PHP</titre>
+            <description>92%</description>
+        </competence>
+        <competence>
+            <titre>Java</titre>
+            <description>77%</description>
+        </competence>
+    </competences>
+    <socials>
+        <social>
+            <nomr>Facebook</nomr>
+            <compte>AMINE ABKADRI</compte>
+        </social>
+        <social>
+            <nomr>Instagram</nomr>
+            <compte>AMINE ABKADRI</compte>
+        </social>
+        <social>
+            <nomr>Twitter</nomr>
+            <compte>AMINE ABKADRI</compte>
+        </social>
+        <social>
+            <nomr>LinkedIn</nomr>
+            <compte>AMINE ABKADRI</compte>
+        </social>
+    </socials>
+    <langues>
+        <langue>
+            <intitule>Espagnol</intitule>
+            <niveau>Maternelle</niveau>
+        </langue>
+    <langue>
+        <intitule>Francais</intitule>
+        <niveau>Courante</niveau>
+    </langue>
+    <langue>
+        <intitule>Anglais</intitule>
+        <niveau>Excellente</niveau>
+    </langue>
+        </langues>
+    <loisirs>
+        <loisir>
+            <loisi>natation</loisi>
+            <loisi>gaming</loisi>
+            <loisi>music</loisi>
+            <loisi>travel</loisi>
+        </loisir>
+    </loisirs>
+
+</cv>
